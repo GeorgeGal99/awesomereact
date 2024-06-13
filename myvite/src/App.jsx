@@ -3,11 +3,13 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Register from "./components/register/register";
+import Login from "./components/login/login";
 
 function App() {
   return (
     <>
-      <Register></Register>{" "}
+      {/* <Register></Register>{" "} */}
+      <Login></Login>
     </>
   );
 }
